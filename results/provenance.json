@@ -1,0 +1,26 @@
+{
+  "source_id": "report_2026_09_21",
+  "source_title": "목자판 영상의 수위 추정 모델 비교와 최종 오류 분석",
+  "report_version_date": "2026-09-21",
+  "public_report_path": "reports/research-report.pdf",
+  "source_pdf_sha256": "f16e3270a11ced6c876369d6ea017c576f79924a550e1895bbafc27b6b5d9667",
+  "extracted_text_sha256": "af29ad5f667c87503dc4ab29cfad1fe195f19565ffa7dc1986d915660e4337b3",
+  "extracted_text_distributed": false,
+  "transcription_date": "2026-11-26",
+  "population": "same internal fixed test images",
+  "test_sample_count": 30809,
+  "baseline": "v3: initial full training model",
+  "comparison": "v4: resplit training/validation data and multi-task water-level/obstacle model",
+  "overall_metric_source": {"pdf_page": 16, "table": 12, "unit": "m", "displayed_decimal_places": 6},
+  "threshold_count_source": {"pdf_page": 21, "figure": 13, "comparison": "absolute_error > threshold", "overlapping_nested_counts": true},
+  "derived_calculations": ["m to cm: multiply by 100", "relative decrease: (v3 - v4) / v3 * 100", "count change: v4 - v3"],
+  "calculation_scope": "Unit conversions and changes are recalculated from the displayed rounded report aggregates, not from original image-level predictions.",
+  "raw_predictions_recovered": false,
+  "training_or_inference_rerun_for_publication": false,
+  "limitations": [
+    "Original image-level predictions are not included; RMSE, MAE and P95 cannot be independently recomputed here.",
+    "The internal test was used in v3 error analysis; these are not results from a new external environment.",
+    "Threshold counts overlap and must not be summed.",
+    "Lower aggregate errors do not mean every image improved: absolute errors over 1 m increased from 28 to 31."
+  ]
+}

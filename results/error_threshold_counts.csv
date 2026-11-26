@@ -1,0 +1,4 @@
+absolute_error_threshold_m,comparison,baseline_v3_count,improved_v4_count,test_sample_count,source_id,source_page,aggregation
+0.2,strictly_greater_than,966,525,30809,report_2026_09_21,21,nested_cumulative
+0.5,strictly_greater_than,216,178,30809,report_2026_09_21,21,nested_cumulative
+1.0,strictly_greater_than,28,31,30809,report_2026_09_21,21,nested_cumulative

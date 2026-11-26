@@ -1,0 +1,4 @@
+metric,unit,baseline_v3,improved_v4,test_sample_count,source_id,source_page,source_table
+RMSE,m,0.155691,0.142334,30809,report_2026_09_21,16,12
+MAE,m,0.056090,0.054499,30809,report_2026_09_21,16,12
+absolute_error_P95,m,0.154746,0.126563,30809,report_2026_09_21,16,12

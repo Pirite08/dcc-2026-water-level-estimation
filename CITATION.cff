@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "프로젝트를 인용할 때는 팀의 연구보고서와 평가 범위를 함께 확인해 주세요."
+title: "데이터분석의 재시작: 목자판 영상의 수위 추정과 오류 분석"
+type: software
+authors:
+  - family-names: "김"
+    given-names: "태환"
+  - family-names: "백"
+    given-names: "승우"
+  - family-names: "신"
+    given-names: "동건"
+  - family-names: "구"
+    given-names: "승훈"
+repository-code: "https://github.com/Pirite08/dcc-2026-water-level-estimation"
+url: "https://github.com/Pirite08/dcc-2026-water-level-estimation"
+date-released: 2026-11-26
+abstract: "2026 데이터크리에이터캠프 수위 추정 프로젝트의 공개 기록. Colab 코드, 보고서 집계값과 내부 테스트의 해석 범위를 제공한다."
+keywords:
+  - "수위 추정"
+  - "컴퓨터 비전"
+  - "Colab"
+  - "오류 분석"
